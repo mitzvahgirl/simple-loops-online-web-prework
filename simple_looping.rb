@@ -23,8 +23,12 @@ end
 def while_iterator(number_of_times)
   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
+  iteration_counter = 1	
+while iteration_counter < 18	
   puts "Welcome to Flatiron School's Web Development Course!"
-  end
+  iteration_counter += 1	
+end
+ 
 
 def until_iterator(number_of_times)
   # code your solution here using the "until" keyword
