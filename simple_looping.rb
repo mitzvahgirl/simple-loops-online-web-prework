@@ -33,8 +33,12 @@ end
 def until_iterator(number_of_times)
   # code your solution here using the "until" keyword
   # hint: use a counter to tell the until loop when to stop!
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-
+countdown_counter = 20	
+until countdown_counter == 0	
+  puts "There is still time left!"	
+  countdown_counter -= 1	
+end	
+puts "You're now out of time."
 end
 
 def for_iterator(number_of_times)
