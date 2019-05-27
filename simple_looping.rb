@@ -38,7 +38,7 @@ until countdown_counter == 0
   puts "There is still time left!"	
   countdown_counter -= 1	
 end	
-puts "You're now out of time."
+puts "You're out of time."
 end
 
 def for_iterator(number_of_times)
