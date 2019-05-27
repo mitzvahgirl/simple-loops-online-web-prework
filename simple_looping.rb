@@ -33,7 +33,7 @@ end
 def until_iterator(number_of_times)
   # code your solution here using the "until" keyword
   # hint: use a counter to tell the until loop when to stop!
-countdown_counter = 20	
+countdown_counter = 15	
 until countdown_counter == 0	
   puts "There is still time left!"	
   countdown_counter -= 1	
