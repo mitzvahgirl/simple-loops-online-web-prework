@@ -47,6 +47,5 @@ def for_iterator(number_of_times)
   for counter in 1..40 do	
   puts "The current number is #{counter}."	
 end
-    puts "Welcome to Flatiron School's Web Development Course!"
-end
+ 
 
